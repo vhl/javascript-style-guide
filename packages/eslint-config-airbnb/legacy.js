@@ -1,12 +1,12 @@
 module.exports = {
   'extends': [
-    'eslint-config-airbnb/rules/best-practices',
-    'eslint-config-airbnb/rules/errors',
-    'eslint-config-airbnb/rules/legacy',
-    'eslint-config-airbnb/rules/node',
-    'eslint-config-airbnb/rules/strict',
-    'eslint-config-airbnb/rules/style',
-    'eslint-config-airbnb/rules/variables'
+    'eslint-config-vhl/rules/best-practices',
+    'eslint-config-vhl/rules/errors',
+    'eslint-config-vhl/rules/legacy',
+    'eslint-config-vhl/rules/node',
+    'eslint-config-vhl/rules/strict',
+    'eslint-config-vhl/rules/style',
+    'eslint-config-vhl/rules/variables'
   ],
   'env': {
     'browser': true,

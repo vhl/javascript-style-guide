@@ -1,7 +1,7 @@
 module.exports = {
   'extends': [
-    'eslint-config-airbnb/base',
-    'eslint-config-airbnb/rules/react',
+    'eslint-config-vhl/base',
+    'eslint-config-vhl/rules/react',
   ],
   rules: {}
 };
