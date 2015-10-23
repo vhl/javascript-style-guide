@@ -1,7 +1,7 @@
 module.exports = {
   'extends': [
-    'eslint-config-airbnb/legacy',
-    'eslint-config-airbnb/rules/es6',
+    'eslint-config-vhl/legacy',
+    'eslint-config-vhl/rules/es6',
   ],
   'parser': 'babel-eslint',
   'rules': {}
