@@ -316,6 +316,18 @@
     }
     ```
 
+  - Avoid wrapping function calls with no arguments in an anonymous function.  The outer function serves no purpose because you can refer to the inner function directly without applying it.  In other words, do not thunk a thunk. (A thunk is a function that accepts no arguments.)
+
+    ```javascript
+    // bad
+    $(document).ready(function() {
+      showDialog();
+    });
+
+    // good
+    $(document.ready(showDialog);
+    ```
+
 **[⬆ back to top](#table-of-contents)**
 
 
