@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vhl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "VHL's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {

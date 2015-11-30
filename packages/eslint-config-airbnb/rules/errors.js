@@ -1,10 +1,10 @@
 module.exports = {
   'rules': {
     // disallow trailing commas in object literals
-    'comma-dangle': [2, 'always-multiline'],
+    'comma-dangle': [2, 'never'],
     // disallow assignment in conditional expressions
     'no-cond-assign': [2, 'always'],
-    // disallow use of console
+    // allow use of console
     'no-console': 0,
     // disallow use of constant expressions in conditions
     'no-constant-condition': 1,
